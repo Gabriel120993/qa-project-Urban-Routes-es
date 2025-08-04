@@ -1,22 +1,23 @@
-# Urban Routes - Test Automatizado
+# Urban Routes - Proyecto de pruebas automatizadas
 
-Este proyecto automatiza el flujo de pedir un taxi en la app **Urban Routes** usando Selenium y Python.
+Este proyecto contiene pruebas end-to-end para la aplicación Urban Routes, desarrollado como parte del Sprint 8 del curso QA Engineer.
 
-## 🔧 Tecnologías utilizadas
+## 🧪 Tecnologías usadas
 
 - Python 3
 - Selenium WebDriver
 - Pytest
-- Google Chrome
+- POM (Page Object Model)
 
-## 📁 Estructura
+## ▶️ Ejecución
 
-- `main.py`: contiene las clases `UrbanRoutesPage` y `TestUrbanRoutes`
-- `data.py`: contiene URL y direcciones
-- `README.md`: este archivo
+1. Cloná el repositorio
+2. Instalá dependencias:
+3. Ejecutá las pruebas:
 
-## ▶️ Cómo ejecutar las pruebas
+## 🧩 Estructura
 
-1. Instala las dependencias:
-   ```bash
-   pip install selenium
+- `pages/`: elementos de la UI y acciones.
+- `helpers/`: funciones auxiliares como interceptar código.
+- `tests/`: pruebas automatizadas.
+- `data.py`: datos de prueba.
